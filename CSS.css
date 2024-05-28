@@ -1,11 +1,12 @@
 /* color palet
 
-this one
---text: #0c1311;
---background: #f3f7f6;
---primary: #629d87;
---secondary: #adb7cc;
---accent: #8a85b2;
+--text: #0c1011;
+  --background: #fafcfc;
+  --primary: #ff6ec7;
+  --secondary: #ff007f;
+  --accent: #ffc1cc;
+  --border: #3f3f3f;
+  --shadow: #00000069;
 
 
 */
@@ -53,7 +54,7 @@ body {
   border-left: 1px solid var(--border);
 }
 
-/* navigation bar style */
+/* navigation bar */
 .header li a {
   display: block;
   color: #000000;
@@ -70,14 +71,14 @@ body {
   background-color: var(--secondary);
 }
 
-/* paragraph styling */
+/* paragraph */
 .wooooParagraphy {
   background-color: var(--primary);
   padding: 5px;
 
   width: 60%;
   margin: auto;
-  margin-top: 270px; /*  met 48px komt het recht onder de nav bar  */
+  margin-top: 270px; /* 48px komt het recht onder de nav bar  */
   margin-bottom: 170px;
 
   height: auto;
