@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="CSS.css" /> 
-  <title>CasusCafe</title>
+  <title>Casus Café</title>
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 
   <main>
     <div class="wooooParagraphy"> 
-      <p>text hier.
+      <p>text.
       </p>
     </div>
 
@@ -30,7 +30,7 @@
 
 
   <footer> 
-      <p>&copy; CasusCafe 2024</p> 
+      <p>&copy; Casus Café</p> 
   </footer> 
 
 </body>
