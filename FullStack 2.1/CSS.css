@@ -1,0 +1,126 @@
+:root {
+    --text: #0c1011;
+    --background: #fafcfc;
+    --primary: #ff6ec7;
+    --secondary: #ff007f;
+    --accent: #ffc1cc;
+    --border: #3f3f3f;
+    --shadow: #00000069;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* entire site body  */
+  body {
+    background-color: var(--background);
+  }
+  
+  /* navigation bar */
+  .header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--primary);
+    border: 1px solid var(--text);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .header li {
+    float: left;
+    border-right: 1px solid var(--border);
+  }
+  
+  .header li:last-child {
+    border-right: none;
+    border-left: 1px solid var(--border);
+  }
+  
+  /* navigation bar */
+  .header li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .header li a:hover {
+    background-color: var(--accent);
+  }
+  
+  .active {
+    background-color: var(--secondary);
+  }
+  
+  /* paragraph */
+  .wooooParagraphy {
+    background-color: var(--primary);
+    padding: 5px;
+  
+    width: 60%;
+    margin: auto;
+    margin-top: 270px; /* 48px komt het recht onder de nav bar  */
+    margin-bottom: 170px;
+  
+    height: auto;
+    border: 1px solid var(--border);
+    box-shadow: 3px 3px 6px var(--shadow);
+  }
+  
+  .wooooParagraphy > p {
+    font-size: 20px;
+    color: var(--text);
+    text-align: center;
+  }
+  
+  /* button style admin page */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+  }
+  
+  /* inlog style  */
+  .inlogzooi {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+  }
+  
+  /* footer style */
+  footer {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: fixed;
+    background-color: var(--primary);
+    border: 1px solid var(--border);
+  
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer > p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* 
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: auto;
+    }
+  } */
+  
+  .eventList {
+    margin-top: 3em;
+  }
